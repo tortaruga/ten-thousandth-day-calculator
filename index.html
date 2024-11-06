@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ten thousandth day calculator</title>
+    <link rel="stylesheet" href="./src/output.css"> 
+</head>
+<body class="font-customFont font-light tracking-wider flex flex-col justify-between min-h-screen text-center"> 
+   
+  <main class="grid grid-cols-1 md:grid-cols-[40%_60%]">        
+    <div class="bg-gradient-to-br from-slate-950 to-cyan-950 text-white p-2"> 
+      <h1 class="text-4xl min-[400px]:text-5xl pt-6 text-orange-300">ten thousandth day calculator</h1>
+      <p class="text-sm my-3 italic">"ride ten thousand days and nights, til age snow white hairs on thee"</p>
+    
+      <div class="my-10 flex justify-center items-center gap-10 flex-wrap justify-self-center"> 
+        <div class="max-w-96 p-4 rounded-lg">
+          <p class="py-2">some people believe the ten thousandth day you are on earth — roughly 27 years and 4 months — to be <span class="text-orange-300">magical</span>: portentous, terrible things can happen, formidable occurrences, frightful coincidences, fateful meetings.</p>
+          <p class="py-2">according to some, the fingerprint of your destiny is imprinted on this day.<span class="text-orange-300">On this day, you will know who you are, and from then on you will no longer be able to escape from yourself.</span></p>
+          <p class="py-2">enter your birth date and find out when this magic day will come for you!</p>
+        </div>
+      </div>
+    </div>
+   
+      <div class="flex flex-col justify-center gap-4 items-center bg-no-repeat bg-center bg-cover bg-[url('/assets/stars.jpg')] p-4 min-h-96">     
+        <form id="form" class="bg-white flex gap-3 flex-wrap max-w-max p-4 rounded-lg"> 
+          <input id="date-input" type="date" class="cursor-pointer py-2 px-4 flex-grow bg-gradient-to-tr from-teal-950 to-cyan-600 rounded-lg text-white tracking-widest"/>
+          <button id="submit-btn" type="submit" class="text-white tracking-wider bg-gradient-to-tr from-red-600 to-yellow-400 flex-grow py-2 px-4 rounded-lg">submit</button> 
+        </form>
+     
+        <div class="box-border p-4 text-slate-800 bg-white rounded-lg max-w-xs"> 
+          <p>your ten thousandth day will be:</p> 
+          <p id="result" class="text-xl flex flex-col"></p>      
+        </div>
+        
+      </div>
+    </div>    
+  </main> 
+  
+  <footer class="bg-slate-900 text-white py-8 px-4 text-xs font-light tracking-wider">       
+    <p><a class="text-orange-300 hover:underline"  href="https://www.freepik.com/free-ai-image/fantasy-shooting-star-landscape-night_201651905.htm#fromView=search&page=1&position=6&uuid=50dab22a-7e3f-49d2-abee-df4de850628d" target="_blank">image credit.</a></p>
+    <p>coded by <a class="text-orange-300 hover:underline" href="https://github.com/tortaruga" target="_blank">tortaruga</a> &#10024;</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
