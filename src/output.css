@@ -730,6 +730,10 @@ video {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\.\/assets\/stars\.jpg\'\)\]{
+  background-image: url('./assets/stars.jpg');
+}
+
 .from-emerald-600{
   --tw-gradient-from: #059669 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(5 150 105 / 0) var(--tw-gradient-to-position);
