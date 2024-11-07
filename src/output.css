@@ -536,7 +536,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+  
   /* 2 */
 }
 
@@ -966,11 +966,11 @@ video {
   }
 
   .sm\:grid-cols-\[\]{
-    grid-template-columns: ;
+    grid-template-columns: "";  
   }
 
   .sm\:grid-cols-\[40\%_60\]{
-    grid-template-columns: 40% 60;
+    grid-template-columns: 40% 60%;
   }
 
   .sm\:grid-cols-\[40\%_60\%\]{
